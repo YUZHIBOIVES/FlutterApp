@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import 'DetailPage.dart';
+import 'StatefulText.dart';
 
 void main() => runApp(DetailPage());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       home: new Scaffold(
         body: new Center(
-          child: new RandomWords(),
+          child: new StatefulText(),
         ),
       ),
     );
